@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script async defer src="script.js"></script>
+</head>
+<body>
+    <h1 align="center" id="heading">Tic-Tac-Toe</h1>
+    <h3 align="center" id="subhead">Three in a row</h3>
+    <h2 align="center" id="turn">Player turn: <span id="player"></span><button id="restart">Restart</button>
+    </h2>
+    <!-- <table id="game" align="center" border="1pt" width="500px" height="500px"> -->
+    <table id="game" align="center">
+        <tr id="row0" class="row">
+            <td class="col col0" id="col00">x</td>
+            <td class="col col1" id="col01"></td>
+            <td class="col col2" id="col02"></td>
+        </tr>
+        <tr id="row1" class="row">
+            <td class="col col0" id="col10"></td>
+            <td class="col col1" id="col11"></td>
+            <td class="col col2" id="col12"></td>
+        </tr>
+        <tr id="row2" class="row">
+            <td class="col col0" id="col20"></td>
+            <td class="col col1" id="col21"></td>
+            <td class="col col2" id="col22"></td>
+        </tr>
+    </table>
+</body>
+</html>
